@@ -1,0 +1,110 @@
+.ggg {
+    
+    положення : відносне;
+    float : right;
+    font-family :  'Lobster'  курсив;
+    display:flex;
+    flex-wrap : обгортання;
+}
+#uuu1 {
+    
+    розмір шрифту :  120% ;
+    font-family :  'Playfair Display' , serif;
+    межа :  1 пікс суцільний чорний;
+    колір фону : синій;
+    колір : жовтий;
+}
+#uuu2 {
+    
+    розмір шрифту :  120 % ;
+    font-family :  'Playfair Display' , serif;
+    межа :  1 пікс суцільний чорний;
+    колір фону : червоний;
+    колір : білий;
+ 
+}
+#uuu3 {
+    
+    розмір шрифту :  120 % ;
+    font-family :  'Playfair Display' , serif;
+    межа :  1 пікс суцільний чорний;
+    колір фону : оранжевий;
+    колір : чорний;
+}
+#uuu4 {
+    
+    розмір шрифту :  120 % ;
+    font-family :  'Playfair Display' , serif;
+    межа :  1 пікс суцільний чорний;
+    фоновий колір : фіолетовий;
+    колір : жовтий;
+    
+}
+. ddd1 {
+    
+    сімейство шрифтів :  'Oswald' , без зарубок;
+}
+# qqq1 {
+   
+    фоновий колір : жовтий;
+    колір :  rgb ( 5 ,  1 ,  1 );
+}
+# qqq2 {
+    
+    колір фону :  rgb ( 0 ,  162 ,  255 );
+    колір :  rgb ( 27 ,  25 ,  25 );
+}
+# qqq3 {
+
+    колір фону :  rgb ( 153 ,  0 ,  255 );
+    колір :  rgb ( 15 ,  11 ,  11 );
+}
+# qqq4 {
+    
+    колір фону :  rgb ( 255 ,  0 ,  179 );
+    колір :  rgb ( 10 ,  5 ,  5 );
+}
+. ttt {
+    
+    положення : відносне;
+    margin-top :  1 % ;
+    поле зліва :  32 % ;
+}
+таблиця ,  th ,  td {
+    
+    border-collapse : крах;
+    межа :  1 пікс суцільний чорний;
+}
+@media ( min-width :  1200px ) {
+    
+    . col-xxxlg-3 {
+        width:   25% ;
+    }
+}
+@media ( min-width :  992px ) і ( max-width :  1199px ) {
+    
+    .col-lg-4 {
+        width:  33,33%;
+    }
+
+    .col-lg-12 {
+        width:  100% ;
+    }
+}
+@media ( min-width :  768px ) і ( max-width :  991px ) {
+    
+    .col-md-6 {
+        width:  50% ;
+    }
+}
+@media(max-width :  767px){
+   
+    .ggg {
+
+        flex-direction:column;
+    }
+
+    .col-sm-12 {
+        width:100%;
+    }
+}
